@@ -1,0 +1,57 @@
+body {
+    background-color: #292f36;
+  }
+  
+  .homepage-title {
+    color: beige;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .homepage-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  
+  .homepage-button:hover {
+    cursor: pointer;
+  }
+  
+  .form-title {
+    color: beige;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    width: 50%;
+  }
+  
+  /* Buttons */
+  .button-primary {
+    background-color: #69798c;
+    border: none;
+    border-radius: 15px;
+    color: beige;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  .button-large {
+    font-size: 1.8rem;
+  }

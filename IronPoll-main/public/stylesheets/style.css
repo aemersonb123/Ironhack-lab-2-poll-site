@@ -1,0 +1,139 @@
+body {
+  background-color: #292f36;
+  overflow-x: hidden;
+}
+
+.homepage-title {
+  color: beige;
+  font-size: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.homepage-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.form-title {
+  color: beige;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  max-width: 600px;
+  width: 50%;
+}
+
+/* Buttons */
+.button-primary {
+  background-color: #69798c;
+  border: none;
+  border-radius: 15px;
+  color: beige;
+  font-size: 1.2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.button-primary:hover {
+  cursor: pointer;
+}
+
+.button-large {
+  font-size: 1.8rem;
+}
+
+.switch-form {
+  color: beige;
+  font-size: 1.1rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.poll-title {
+  color: beige;
+  font-size: 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.poll-choices {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 4rem;
+  list-style: none;
+  width: 100%;
+}
+
+.poll-choice {
+  background-color: #292f36;
+  color: beige;
+  display: flex;
+  border-width: 2px;
+  border-color: beige;
+  border-style: solid;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  max-width: 600px;
+  padding: 1rem;
+  text-align: left;
+  width: 60%;
+}
+
+.poll-choice:hover {
+  cursor: pointer;
+}
+
+.poll-created-by {
+  position: absolute;
+  bottom: 2rem;
+  color: beige;
+  right: 2rem;
+  text-align: right;
+}
+
+.new-poll-choice-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  max-width: 600px;
+  width: 60%;
+}
+
+#new-choice-input {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+.new-choice-form-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}

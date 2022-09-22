@@ -1,0 +1,17 @@
+{{#if username}}
+  <h1 class='homepage-title'>Welcome, {{username}}</h1>
+  <div class='homepage-button-container'>
+    <button id='join-poll' class='button-primary button-large'>
+      Join Poll
+    </button>
+    <button id='create-poll' class='button-primary button-large'>
+      Create Poll
+    </button>
+  </div>
+{{else}}
+  <h1 class='homepage-title'>Welcome to IronPoll</h1>
+  <div class='homepage-button-container'>
+    <a class='button-primary button-large' href='/auth/login'>Sign in</a>
+    <a class='button-primary button-large' href='/auth/signup'>Register</a>
+  </div>
+{{/if}}

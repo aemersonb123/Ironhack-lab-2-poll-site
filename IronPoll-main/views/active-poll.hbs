@@ -1,0 +1,12 @@
+{{#with poll}}
+  <h1 class='poll-title'>{{title}}</h1>
+  <ul class='poll-choices'>
+    {{#each choices}}
+      <button class='poll-choice' onclick='handleVote("{{this}}")'>
+        <span>{{this}}</span>
+        <span id='{{this}}-percentage'></span>
+      </button>
+    {{/each}}
+  </ul>
+{{/with}}
+<h2 class='poll-created-by'>Created by: {{username}}</h2>
